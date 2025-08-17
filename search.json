@@ -1,0 +1,74 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "WebLADR",
+    "section": "",
+    "text": "This website is built for learning LADR. It uses custom callouts for Definition and Property. Custom callouts follow the youtube tutorial given here.\n::::: defn\n::: defn-head\ndefinition: vector space\n:::\n\n::: defn-body\nA $vector space$ is a set $V$ alond with an addition on V and a scalar multiplication on V such that the following properties hold.\n\n$\\textbf{commutativity}$\n\n$u+v = v+ u$ for all $u,v \\in V$\n\n$\\textbf{associativity}$\n\n$(u+v)+w = v+(u+w)$ and $(ab)v = a(bv)$ for all $u,v,w \\in V$ and for all $a,b \\in F$.\n:::\n:::::\n\n\ndefinition: vector space\n\n\nA \\(vector space\\) is a set \\(V\\) alond with an addition on V and a scalar multiplication on V such that the following properties hold.\n\\(\\textbf{commutativity}\\)\n\\(u+v = v+ u\\) for all \\(u,v \\in V\\)\n\\(\\textbf{associativity}\\)\n\\((u+v)+w = v+(u+w)\\) and \\((ab)v = a(bv)\\) for all \\(u,v,w \\in V\\) and for all \\(a,b \\in F\\).\n\n\n::::: prop\n  ::: prop-head\n  ::: prop-body\n:::::\n\n\nconditions for subspace\n\n\nA subset \\(U\\) of \\(V\\) is a subspace of \\(V\\) if and only if \\(U\\) satisfies the following three conditions.\n\\(\\textbf{additive identity}\\)\n\\(0 \\in U\\)\n\\(\\textbf{closed under addition}\\)\n\\(u, w \\in U\\) implies \\(u+w \\in U\\).\n\\(\\textbf{closed under scalar multiplication}\\)\n\\(a \\in F\\) and \\(u \\in U\\) implies \\(au \\in U\\)",
+    "crumbs": [
+      "LADR"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "VectorSpaces.html",
+    "href": "VectorSpaces.html",
+    "title": "VectorSpaces",
+    "section": "",
+    "text": "definition: vector space\n\n\nA \\(vector space\\) is a set \\(V\\) alond with an addition on V and a scalar multiplication on V such that the following properties hold.\n\\(\\textbf{1. commutativity}\\)\n\\(u+v = v+ u\\) for all \\(u,v \\in V\\)\n\\(\\textbf{2. associativity}\\)\n\\((u+v)+w = v+(u+w)\\) and \\((ab)v = a(bv)\\) for all \\(u,v,w \\in V\\) and for all \\(a,b \\in F\\).\n\\(\\textbf{3. additive identity}\\)\nThere exists an element \\(0 \\in V\\) such that \\(v + 0 = v\\) for all \\(v \\in V\\).\n\\(\\textbf{4. additive inverse}\\)\nFor every \\(v \\in V\\) there exists \\(w \\in V\\) such that \\(v+w=0\\).\n\\(\\textbf{5. multiplicative identity}\\)\n\\(1v = v\\) for all \\(v \\in V\\)\n\\(\\textbf{6. distributive properties}\\)\n\\(a(u+v) = au+av\\) amd \\((a+b)v = av+bv\\) for all \\(a,b \\in F\\) and \\(u,v \\in V\\).",
+    "crumbs": [
+      "LADR",
+      "VectorSpaces"
+    ]
+  },
+  {
+    "objectID": "VectorSpaces.html#a-rn-and-cn",
+    "href": "VectorSpaces.html#a-rn-and-cn",
+    "title": "VectorSpaces",
+    "section": "",
+    "text": "definition: vector space\n\n\nA \\(vector space\\) is a set \\(V\\) alond with an addition on V and a scalar multiplication on V such that the following properties hold.\n\\(\\textbf{commutativity}\\)\n\\(u+v = v+ u\\) for all \\(u,v \\in V\\)\n\\(\\textbf{associativity}\\)\n\\((u+v)+w = v+(u+w)\\) and \\((ab)v = a(bv)\\) for all \\(u,v,w \\in V\\) and for all \\(a,b \\in F\\).",
+    "crumbs": [
+      "LADR",
+      "VectorSpaces"
+    ]
+  },
+  {
+    "objectID": "VectorSpaces.html#rn-and-cn",
+    "href": "VectorSpaces.html#rn-and-cn",
+    "title": "VectorSpaces",
+    "section": "",
+    "text": "definition: vector space\n\n\nA \\(vector space\\) is a set \\(V\\) alond with an addition on V and a scalar multiplication on V such that the following properties hold.\n\\(\\textbf{1. commutativity}\\)\n\\(u+v = v+ u\\) for all \\(u,v \\in V\\)\n\\(\\textbf{2. associativity}\\)\n\\((u+v)+w = v+(u+w)\\) and \\((ab)v = a(bv)\\) for all \\(u,v,w \\in V\\) and for all \\(a,b \\in F\\).\n\\(\\textbf{3. additive identity}\\)\nThere exists an element \\(0 \\in V\\) such that \\(v + 0 = v\\) for all \\(v \\in V\\).\n\\(\\textbf{4. additive inverse}\\)\nFor every \\(v \\in V\\) there exists \\(w \\in V\\) such that \\(v+w=0\\).\n\\(\\textbf{5. multiplicative identity}\\)\n\\(1v = v\\) for all \\(v \\in V\\)\n\\(\\textbf{6. distributive properties}\\)\n\\(a(u+v) = au+av\\) amd \\((a+b)v = av+bv\\) for all \\(a,b \\in F\\) and \\(u,v \\in V\\).",
+    "crumbs": [
+      "LADR",
+      "VectorSpaces"
+    ]
+  },
+  {
+    "objectID": "VectorSpaces.html#vector-spaces",
+    "href": "VectorSpaces.html#vector-spaces",
+    "title": "VectorSpaces",
+    "section": "",
+    "text": "definition: vector space\n\n\nA \\(vector space\\) is a set \\(V\\) alond with an addition on V and a scalar multiplication on V such that the following properties hold.\n\\(\\textbf{1. commutativity}\\)\n\\(u+v = v+ u\\) for all \\(u,v \\in V\\)\n\\(\\textbf{2. associativity}\\)\n\\((u+v)+w = v+(u+w)\\) and \\((ab)v = a(bv)\\) for all \\(u,v,w \\in V\\) and for all \\(a,b \\in F\\).\n\\(\\textbf{3. additive identity}\\)\nThere exists an element \\(0 \\in V\\) such that \\(v + 0 = v\\) for all \\(v \\in V\\).\n\\(\\textbf{4. additive inverse}\\)\nFor every \\(v \\in V\\) there exists \\(w \\in V\\) such that \\(v+w=0\\).\n\\(\\textbf{5. multiplicative identity}\\)\n\\(1v = v\\) for all \\(v \\in V\\)\n\\(\\textbf{6. distributive properties}\\)\n\\(a(u+v) = au+av\\) amd \\((a+b)v = av+bv\\) for all \\(a,b \\in F\\) and \\(u,v \\in V\\).",
+    "crumbs": [
+      "LADR",
+      "VectorSpaces"
+    ]
+  },
+  {
+    "objectID": "VectorSpaces/VectorSpaces.html",
+    "href": "VectorSpaces/VectorSpaces.html",
+    "title": "VectorSpaces",
+    "section": "",
+    "text": "definition: vector space\n\n\nA \\(vector space\\) is a set \\(V\\) alond with an addition on V and a scalar multiplication on V such that the following properties hold.\n\\(\\textbf{1. commutativity}\\)\n\\(u+v = v+ u\\) for all \\(u,v \\in V\\)\n\\(\\textbf{2. associativity}\\)\n\\((u+v)+w = v+(u+w)\\) and \\((ab)v = a(bv)\\) for all \\(u,v,w \\in V\\) and for all \\(a,b \\in F\\).\n\\(\\textbf{3. additive identity}\\)\nThere exists an element \\(0 \\in V\\) such that \\(v + 0 = v\\) for all \\(v \\in V\\).\n\\(\\textbf{4. additive inverse}\\)\nFor every \\(v \\in V\\) there exists \\(w \\in V\\) such that \\(v+w=0\\).\n\\(\\textbf{5. multiplicative identity}\\)\n\\(1v = v\\) for all \\(v \\in V\\)\n\\(\\textbf{6. distributive properties}\\)\n\\(a(u+v) = au+av\\) amd \\((a+b)v = av+bv\\) for all \\(a,b \\in F\\) and \\(u,v \\in V\\).\n\n\nExamples of vector spaces:\n\n\\(\\mathbb{R}\\) - real vector spaces\n\\(\\mathbb{C}\\) - complex vector spaces\n\\(\\mathbb{F}^n\\) - is a vector space\n\\(\\mathbb{F}^\\infty\\) - is a vector space\n\\(\\mathbb{F}^S\\) - the set of functions from \\(S\\) to \\(F\\)",
+    "crumbs": [
+      "LADR",
+      "VectorSpaces"
+    ]
+  }
+]
