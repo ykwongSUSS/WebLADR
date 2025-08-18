@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Linear Algebra Done Right",
+    "title": "LADR",
     "section": "",
-    "text": "Website for learning LADR 1. The book is open access and LADR.pdf is available.\nCustom callouts are used on this website 2. The custom.scss must be referred in the YAML.",
+    "text": "Website for learning Linear Algebra Done Right (LADR) 1. The book is open access and LADR4e.pdf is available.\nCustom callouts are used on this website 2. The custom.scss must be referred in the YAML.",
     "crumbs": [
       "LADR"
     ]
@@ -65,7 +65,7 @@
     "href": "VectorSpaces/VectorSpaces.html",
     "title": "VectorSpaces",
     "section": "",
-    "text": "definition: vector space\n\n\nA vector space is a set \\(V\\) along with an addition on V and a scalar multiplication on \\(V\\) such that the following properties hold.\n1. commutativity\n\\(u+v = v+ u\\) for all \\(u,v \\in V\\)\n2. associativity\n\\((u+v)+w = v+(u+w)\\) and \\((ab)v = a(bv)\\) for all \\(u,v,w \\in V\\) and for all \\(a,b \\in F\\).\n3. additive identity\nThere exists an element \\(0 \\in V\\) such that \\(v + 0 = v\\) for all \\(v \\in V\\).\n4. additive inverse\nFor every \\(v \\in V\\) there exists \\(w \\in V\\) such that \\(v+w=0\\).\n5. multiplicative identity\n\\(1v = v\\) for all \\(v \\in V\\)\n6. distributive properties\n\\(a(u+v) = au+av\\) amd \\((a+b)v = av+bv\\) for all \\(a,b \\in F\\) and \\(u,v \\in V\\).\n\n\nVector spaces:\n\\(V\\) - vector space over \\(\\mathbb{F}\\)\n\\(\\mathbb{R}\\) - real vector space over \\(\\mathbb{R}\\)\n\\(\\mathbb{C}\\) - complex vector space over \\(\\mathbb{C}\\)\n\\(\\mathbb{F}^n\\) - finite dimensional vector space over \\(\\mathbb{F}\\)\n\\(\\mathbb{F}^\\infty\\) - infinite vector space over \\(\\mathbb{F}\\)\n\\(\\mathbb{F}^S\\) - the set of functions from \\(S\\) to \\(F\\)",
+    "text": "1.20 definition: vector space\n\n\nA vector space is a set \\(V\\) along with an addition on V and a scalar multiplication on \\(V\\) such that the following properties hold.\n1. commutativity\n\\(u+v = v+ u\\) for all \\(u,v \\in V\\)\n2. associativity\n\\((u+v)+w = v+(u+w)\\) and \\((ab)v = a(bv)\\) for all \\(u,v,w \\in V\\) and for all \\(a,b \\in F\\).\n3. additive identity\nThere exists an element \\(0 \\in V\\) such that \\(v + 0 = v\\) for all \\(v \\in V\\).\n4. additive inverse\nFor every \\(v \\in V\\) there exists \\(w \\in V\\) such that \\(v+w=0\\).\n5. multiplicative identity\n\\(1v = v\\) for all \\(v \\in V\\)\n6. distributive properties\n\\(a(u+v) = au+av\\) amd \\((a+b)v = av+bv\\) for all \\(a,b \\in F\\) and \\(u,v \\in V\\).\n\n\nExamples: Vector spaces:\n\\(V\\) - vector space over \\(\\mathbb{F}\\)\n\\(\\mathbb{R}\\) - real vector space over \\(\\mathbb{R}\\)\n\\(\\mathbb{C}\\) - complex vector space over \\(\\mathbb{C}\\)\n\\(\\mathbb{F}^n\\) - finite dimensional vector space over \\(\\mathbb{F}\\)\n\\(\\mathbb{F}^\\infty\\) - infinite vector space over \\(\\mathbb{F}\\)\n\\(\\mathbb{F}^S\\) - the set of functions from \\(S\\) to \\(F\\)",
     "crumbs": [
       "LADR",
       "VectorSpaces"
@@ -74,7 +74,7 @@
   {
     "objectID": "index.html#footnotes",
     "href": "index.html#footnotes",
-    "title": "Linear Algebra Done Right",
+    "title": "LADR",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nAxler,S. “Linear Algebra Done Right”, 4th Edition, Springer, 2024↩︎\nyoutube: How to create CUSTOM Callout Boxes in Quarto.↩︎",
     "crumbs": [
@@ -89,6 +89,18 @@
     "text": "Usage\n::::: defn\n::: defn-head\ndefinition: vector space\n:::\n\n::: defn-body\nA $vector space$ is a set $V$ alond with an addition on V and a scalar multiplication on V such that the following properties hold.\n\n$\\textbf{commutativity}$\n\n$u+v = v+ u$ for all $u,v \\in V$\n\n$\\textbf{associativity}$\n\n$(u+v)+w = v+(u+w)$ and $(ab)v = a(bv)$ for all $u,v,w \\in V$ and for all $a,b \\in F$.\n:::\n:::::\n\n\ndefinition: vector space\n\n\nA \\(vector space\\) is a set \\(V\\) alond with an addition on V and a scalar multiplication on V such that the following properties hold.\n\\(\\textbf{commutativity}\\)\n\\(u+v = v+ u\\) for all \\(u,v \\in V\\)\n\\(\\textbf{associativity}\\)\n\\((u+v)+w = v+(u+w)\\) and \\((ab)v = a(bv)\\) for all \\(u,v,w \\in V\\) and for all \\(a,b \\in F\\).\n\n\n::::: prop\n  ::: prop-head\n  ::: prop-body\n:::::\n\n\nconditions for subspace\n\n\nA subset \\(U\\) of \\(V\\) is a subspace of \\(V\\) if and only if \\(U\\) satisfies the following three conditions.\n\\(\\textbf{additive identity}\\)\n\\(0 \\in U\\)\n\\(\\textbf{closed under addition}\\)\n\\(u, w \\in U\\) implies \\(u+w \\in U\\).\n\\(\\textbf{closed under scalar multiplication}\\)\n\\(a \\in F\\) and \\(u \\in U\\) implies \\(au \\in U\\)",
     "crumbs": [
       "LADR"
+    ]
+  },
+  {
+    "objectID": "VectorSpaces/Subspaces.html",
+    "href": "VectorSpaces/Subspaces.html",
+    "title": "Subspaces",
+    "section": "",
+    "text": "1.20 definition: subspace\n\n\nA subset \\(U\\) of \\(V\\) is called a subspace of \\(V\\) if \\(U\\) is also a vector space with the same additive identity, addition and scalar multiplication as on \\(V\\).\n\n\n\n\n1.34 conditions for a subspace\n\n\nA subset \\(U\\) of \\(V\\) is a subspace of \\(V\\) if and only if \\(U\\) satisfies the following three conditions.\nadditive identity\n$ 0 U $\nclosed under addition\n\\(u,w \\in U\\) implies \\(u+w \\in U\\)\nclosed under scalar multiplication\n\\(a \\in F\\) and \\(u \\in U\\) implies \\(au \\in U\\)\n\n\nExamples: subspaces",
+    "crumbs": [
+      "LADR",
+      "VectorSpaces",
+      "Subspaces"
     ]
   }
 ]
