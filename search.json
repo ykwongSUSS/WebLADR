@@ -96,11 +96,22 @@
     "href": "VectorSpaces/Subspaces.html",
     "title": "Subspaces",
     "section": "",
-    "text": "1.20 definition: subspace\n\n\nA subset \\(U\\) of \\(V\\) is called a subspace of \\(V\\) if \\(U\\) is also a vector space with the same additive identity, addition and scalar multiplication as on \\(V\\).\n\n\n\n\n1.34 conditions for a subspace\n\n\nA subset \\(U\\) of \\(V\\) is a subspace of \\(V\\) if and only if \\(U\\) satisfies the following three conditions.\nadditive identity\n\\(0 \\in U\\)\nclosed under addition\n\\(u,w \\in U\\) implies \\(u+w \\in U\\)\nclosed under scalar multiplication\n\\(a \\in F\\) and \\(u \\in U\\) implies \\(au \\in U\\)\n\n\nExamples: subspaces",
+    "text": "1.20 definition: subspace\n\n\nA subset \\(U\\) of \\(V\\) is called a subspace of \\(V\\) if \\(U\\) is also a vector space with the same additive identity, addition and scalar multiplication as on \\(V\\).\n\n\n\n\n1.34 conditions for a subspace\n\n\nA subset \\(U\\) of \\(V\\) is a subspace of \\(V\\) if and only if \\(U\\) satisfies the following three conditions.\nadditive identity\n\\(0 \\in U\\)\nclosed under addition\n\\(u,w \\in U\\) implies \\(u+w \\in U\\)\nclosed under scalar multiplication\n\\(a \\in F\\) and \\(u \\in U\\) implies \\(au \\in U\\)\n\n\nExamples: subspaces\n\nThe set of continuous real valued functions on the interval [0,1] is a subspace of \\(\\mathbb{R}^{[0,1]}\\)\nthe set of differentiable real-valued functions on \\(\\mathbb{R}\\) is a subspace of \\(\\mathbb{R}^{R}\\)\nthe set of all sequences of complex numbers with limit 0 is a subspace of \\(\\mathbb{C}^\\infty\\).\n\n\n\n1.20 definition: sum of subspace\n\n\nSuppose \\(V_1,\\ldots,V_m\\) are subspaces of \\(V\\). The sum of \\(V_1,\\ldots,V_m\\), denoted by \\(V_1+\\ldots+V_m\\), is the set of all possible sums of elements of \\(V_1,\\ldots,V_m\\). More precisely, \\[\nV_1+\\ldots,+V_m = {v_1+\\cdots+v_m : v_1 \\in V,\\ldots,v_m \\in V_m}\n\\]",
     "crumbs": [
       "LADR",
       "VectorSpaces",
       "Subspaces"
+    ]
+  },
+  {
+    "objectID": "FiniteSpaces/FiniteSpaces.html",
+    "href": "FiniteSpaces/FiniteSpaces.html",
+    "title": "FiniteVSpaces",
+    "section": "",
+    "text": "2.4 definition: span\n\n\nThe set of all linear combinations of a list of vectors \\(v_1, \\ldots, v_m\\) in \\(V\\) is call the span of \\(v_1, \\ldots, v_m\\), denoted by span(\\(v_1, \\ldots, v_m\\)). In other workds \\[\nspan(v_1, \\ldots, v_m) = (av_1+\\ldots+a_m v_m : a_1,\\ldots,a_m \\in \\mathbb{F})\n\\] The span of the empty list () is defined to be (0).\n\n\n\n\n\n2.4 definition: polynomial, \\(\\mathbb{P(F)}\\)\n\n\nThe set of all linear combinations of a list of vectors \\(v_1, \\ldots, v_m\\) in \\(V\\) is call the span of \\(v_1, \\ldots, v_m\\), denoted by span(\\(v_1, \\ldots, v_m\\)). In other workds \\[\nspan(v_1, \\ldots, v_m) = (av_1+\\ldots+a_m v_m : a_1,\\ldots,a_m \\in \\mathbb{F})\n\\] The span of the empty list () is defined to be (0).",
+    "crumbs": [
+      "LADR",
+      "FiniteSpaces"
     ]
   }
 ]
