@@ -273,7 +273,7 @@ window.Quarto = {
 <p>1.1 definition: complex numbers <span class="math inline">\(\mathbb{C}\)</span></p>
 </div>
 <div class="defn-body">
-<p>A <em>complex number</em> is an ordered pair <span class="math inline">\((a,b)\)</span> where <span class="math inline">\(a,b \in R\)</span> written as <span class="math inline">\(a+bi\)</span>.</p>
+<p>A <em>complex number</em> is an ordered pair <span class="math inline">\((a,b)\)</span> where <span class="math inline">\(a,b \in \mathbb{R}\)</span> written as <span class="math inline">\(a+bi\)</span>.</p>
 <p>The set of all complex numbers is denoted by <span class="math inline">\(\mathbb{C}\)</span>:<br>
 <span class="math display">\[\mathbb{C} = \{a + bi : a,b \in \mathbb{R}\}\]</span></p>
 <p><em>Addition and multiplication</em> on <span class="math inline">\(\mathbb{C}\)</span> are defined by<br>
@@ -282,6 +282,7 @@ window.Quarto = {
 <p>where <span class="math inline">\(a,b,c,d \in \mathbb{R}\)</span></p>
 </div>
 </div>
+<p>Definition Code:</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>::::: defn</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>::: defn-head</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>1.1 definition: complex numbers $\mathbb{C}$</span>
@@ -301,13 +302,14 @@ window.Quarto = {
 <span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>:::::</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="prop">
 <div class="prop-head">
-<p>1.3 properties of complex arithmetic in <span class="math inline">\(\mathbb{C}\)</span></p>
+<p>1.3 Field properties of <span class="math inline">\(\mathbb{C}\)</span></p>
 </div>
 <div class="prop-body">
 <p><strong>commutativity</strong><br>
-<span class="math inline">\(\alpha+\beta = \beta + \alpha\)</span> and <span class="math inline">\(\alpha\beta = \beta\alpha\)</span> for all <span class="math inline">\(\alpha, \beta \in \mathbb{C}\)</span></p>
+<span class="math inline">\(\alpha+\beta = \beta + \alpha \text{ and } \alpha\beta = \beta\alpha \quad\)</span> for all <span class="math inline">\(\alpha, \beta \in \mathbb{C}\)</span></p>
 <p><strong>associativity</strong><br>
-<span class="math inline">\((\alpha+\beta)+\lambda = \alpha + (\beta+\lambda)\)</span> for all <span class="math inline">\(\alpha, \beta, \lambda \in \mathbb{C}\)</span></p>
+<span class="math inline">\((\alpha+\beta)+\lambda = \alpha + (\beta+\lambda)  \text{ and }
+(\alpha\beta)\lambda = \alpha(\beta\lambda) \quad\)</span> for all <span class="math inline">\(\alpha, \beta, \lambda \in \mathbb{C}\)</span></p>
 <p><strong>additive and multiplicative identities</strong><br>
 <span class="math inline">\(\lambda+0= \lambda\)</span> and <span class="math inline">\(\lambda 1= \lambda\)</span> for all <span class="math inline">\(\lambda \in \mathbb{C}\)</span></p>
 <p><strong>additive and multiplicative inverses</strong><br>
@@ -317,6 +319,8 @@ For every <span class="math inline">\(\alpha \in \mathbb{C}\)</span>, with <span
 <span class="math inline">\(\lambda(\alpha+\beta)= \lambda\alpha+\lambda\beta\)</span> for all <span class="math inline">\(\lambda, \alpha, \beta \in \mathbb{C}\)</span></p>
 </div>
 </div>
+<p><mark>Thus, the set of real numbers <span class="math inline">\(\mathbb{R}\)</span> and complex numbers <span class="math inline">\(\mathbb{C}\)</span> are both fields</mark>. (Implicit in this is the axiom that fields have addition and multiplication closure properties).</p>
+<p>Properties Code:</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>::::: prop</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  ::: prop-head</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  ::: prop-body </span>
