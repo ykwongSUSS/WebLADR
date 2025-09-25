@@ -232,6 +232,8 @@ window.Quarto = {
    
   <ul>
   <li><a href="#complex-numbers" id="toc-complex-numbers" class="nav-link active" data-scroll-target="#complex-numbers">Complex Numbers</a></li>
+  <li><a href="#the-field-axioms" id="toc-the-field-axioms" class="nav-link" data-scroll-target="#the-field-axioms">The Field Axioms</a></li>
+  <li><a href="#commutativity-property" id="toc-commutativity-property" class="nav-link" data-scroll-target="#commutativity-property">Commutativity Property</a></li>
   </ul>
 </nav>
     </div>
@@ -282,7 +284,7 @@ window.Quarto = {
 <p>where <span class="math inline">\(a,b,c,d \in \mathbb{R}\)</span></p>
 </div>
 </div>
-<p>Definition Code:</p>
+<p>Definition Code (yellow):</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>::::: defn</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>::: defn-head</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>1.1 definition: complex numbers $\mathbb{C}$</span>
@@ -300,33 +302,55 @@ window.Quarto = {
 <span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>where $a,b,c,d \in \mathbb{R}$</span>
 <span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>:::</span>
 <span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>:::::</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="the-field-axioms" class="level3">
+<h3 class="anchored" data-anchor-id="the-field-axioms">The Field Axioms</h3>
+<p>A set F is a field if it satisfies the following conditions for its operations of addition (+) and multiplication (.), where <span class="math inline">\(\alpha, \beta\)</span> and <span class="math inline">\(\gamma\)</span> are elements of F.</p>
+<div class="defn">
+<div class="defn-head">
+<p>Field properties</p>
+</div>
+<div class="defn-body">
+<p><strong>1. closure</strong><br>
+<span class="math inline">\(\alpha+\beta\)</span> and <span class="math inline">\(\alpha.\beta\)</span> are in F.</p>
+<p><strong>2. commutativity</strong><br>
+<span class="math inline">\(\alpha+\beta = \beta + \alpha \text{ and } \alpha.\beta = \beta.\alpha \quad\)</span> for all <span class="math inline">\(\alpha, \beta \in \mathbb{C}\)</span></p>
+<p><strong>3. associativity</strong><br>
+<span class="math inline">\((\alpha+\beta)+\lambda = \alpha + (\beta+\lambda)  \text{ and }
+(\alpha.\beta).\lambda = \alpha.(\beta.\lambda) \quad\)</span> for all <span class="math inline">\(\alpha, \beta, \lambda \in \mathbb{C}\)</span></p>
+<p><strong>4. identities</strong><br>
+<span class="math inline">\(\lambda+0= \lambda\)</span> and <span class="math inline">\(\lambda.1= \lambda\)</span> for all <span class="math inline">\(\lambda \in \mathbb{C}\)</span></p>
+<p><strong>5. inverses</strong><br>
+For every <span class="math inline">\(\alpha \in \mathbb{C}\)</span>, there exists a unique <span class="math inline">\(\beta \in \mathbb{C}\)</span> such that <span class="math inline">\(\alpha+\beta=0\)</span><br>
+For every <span class="math inline">\(\alpha \in \mathbb{C}\)</span>, with <span class="math inline">\(\alpha \ne 0\)</span> there exists a unique <span class="math inline">\(\beta \in \mathbb{C}\)</span> such that <span class="math inline">\(\alpha.\beta=1\)</span></p>
+<p><strong>6. distributivity</strong><br>
+<span class="math inline">\(\lambda.(\alpha+\beta)= \lambda.\alpha+\lambda.\beta\)</span> for all <span class="math inline">\(\lambda, \alpha, \beta \in \mathbb{C}\)</span></p>
+</div>
+</div>
+<p><mark>Thus, the sets of real numbers <span class="math inline">\(\mathbb{R}\)</span> and complex numbers <span class="math inline">\(\mathbb{C}\)</span> are both fields</mark>.<br>
+<span class="math inline">\(\mathbb{Q}\)</span> the set of rational numbers <span class="math inline">\((p/q)\)</span> where <span class="math inline">\(p,q\)</span> are integers and <span class="math inline">\(q \ne 0,\)</span> is also a field.</p>
+</section>
+<section id="commutativity-property" class="level3">
+<h3 class="anchored" data-anchor-id="commutativity-property">Commutativity Property</h3>
 <div class="prop">
 <div class="prop-head">
-<p>1.3 Field properties of <span class="math inline">\(\mathbb{C}\)</span></p>
+<p>Commutativity of addition in <span class="math inline">\(\mathbb{F^n}\)</span></p>
 </div>
 <div class="prop-body">
-<p><strong>commutativity</strong><br>
-<span class="math inline">\(\alpha+\beta = \beta + \alpha \text{ and } \alpha\beta = \beta\alpha \quad\)</span> for all <span class="math inline">\(\alpha, \beta \in \mathbb{C}\)</span></p>
-<p><strong>associativity</strong><br>
-<span class="math inline">\((\alpha+\beta)+\lambda = \alpha + (\beta+\lambda)  \text{ and }
-(\alpha\beta)\lambda = \alpha(\beta\lambda) \quad\)</span> for all <span class="math inline">\(\alpha, \beta, \lambda \in \mathbb{C}\)</span></p>
-<p><strong>additive and multiplicative identities</strong><br>
-<span class="math inline">\(\lambda+0= \lambda\)</span> and <span class="math inline">\(\lambda 1= \lambda\)</span> for all <span class="math inline">\(\lambda \in \mathbb{C}\)</span></p>
-<p><strong>additive and multiplicative inverses</strong><br>
-For every <span class="math inline">\(\alpha \in \mathbb{C}\)</span>, there exists a unique <span class="math inline">\(\beta \in \mathbb{C}\)</span> such that <span class="math inline">\(\alpha+\beta=0\)</span><br>
-For every <span class="math inline">\(\alpha \in \mathbb{C}\)</span>, with <span class="math inline">\(\alpha \ne 0\)</span> there exists a unique <span class="math inline">\(\beta \in \mathbb{C}\)</span> such that <span class="math inline">\(\alpha\beta=1\)</span></p>
-<p><strong>distributive property</strong><br>
-<span class="math inline">\(\lambda(\alpha+\beta)= \lambda\alpha+\lambda\beta\)</span> for all <span class="math inline">\(\lambda, \alpha, \beta \in \mathbb{C}\)</span></p>
+<p>If <span class="math inline">\(x,y \in F\)</span>, then <span class="math inline">\(x+y = y+x\)</span></p>
 </div>
 </div>
-<p><mark>Thus, the set of real numbers <span class="math inline">\(\mathbb{R}\)</span> and complex numbers <span class="math inline">\(\mathbb{C}\)</span> are both fields</mark>. (Implicit in this is the axiom that fields have addition and multiplication closure properties).</p>
-<p>Properties Code:</p>
+<p>Properties Code (blue):</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>::::: prop</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  ::: prop-head</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  ::: prop-body </span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>:::::</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>note: add 2 spaces at end of line  </span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>for newline</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>::: prop-head </span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>Commutativity of addition in $\mathbb{F^n}$ </span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>::: </span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>::: prop-body </span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>If $x,y \in F$, then $x+y = y+x$ </span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>:::::</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>note: add 2 spaces at end of a line  </span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>for newline (like this).</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 </section>
