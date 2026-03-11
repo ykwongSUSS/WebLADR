@@ -192,8 +192,16 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#vectors" id="toc-vectors" class="nav-link active" data-scroll-target="#vectors">Vectors</a></li>
+  <li><a href="#vector-space" id="toc-vector-space" class="nav-link" data-scroll-target="#vector-space">Vector Space</a></li>
+  <li><a href="#vector-space-for-set-of-functions" id="toc-vector-space-for-set-of-functions" class="nav-link" data-scroll-target="#vector-space-for-set-of-functions">Vector Space for set of functions</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -217,6 +225,8 @@ window.Quarto = {
 </header>
 
 
+<section id="vectors" class="level3">
+<h3 class="anchored" data-anchor-id="vectors">Vectors</h3>
 <div class="defn">
 <div class="defn-head">
 <p>definition: vector</p>
@@ -230,6 +240,9 @@ window.Quarto = {
 </ol>
 </div>
 </div>
+</section>
+<section id="vector-space" class="level3">
+<h3 class="anchored" data-anchor-id="vector-space">Vector Space</h3>
 <div class="defn">
 <div class="defn-head">
 <p>1.20 definition: vector space</p>
@@ -257,8 +270,24 @@ For every <span class="math inline">\(v \in V\)</span> there exists <span class=
 <span class="math inline">\(\mathbb{F}^n\)</span> - finite dimensional vector space over <span class="math inline">\(\mathbb{F}\)</span><br>
 <span class="math inline">\(\mathbb{F}^\infty\)</span> - infinite vector space over <span class="math inline">\(\mathbb{F}\)</span><br>
 <span class="math inline">\(\mathbb{F}^S\)</span> - the set of functions from <span class="math inline">\(S\)</span> to <span class="math inline">\(F\)</span></p>
+</section>
+<section id="vector-space-for-set-of-functions" class="level3">
+<h3 class="anchored" data-anchor-id="vector-space-for-set-of-functions">Vector Space for set of functions</h3>
+<div class="defn">
+<div class="defn-head">
+<p>notation: <span class="math inline">\(\mathbb{F}^S\)</span></p>
+</div>
+<div class="defn-body">
+<ul>
+<li>If <span class="math inline">\(S\)</span> is a set, then <span class="math inline">\(F^S\)</span> denotes the set of functions from <span class="math inline">\(S\)</span> to <span class="math inline">\(\mathbb{F}\)</span>.</li>
+<li>For <span class="math inline">\(f,g \in \mathbb{F^S}\)</span>, the sum <span class="math inline">\(f+g \in \mathbb{F^S}\)</span> is the function defined by <span class="math display">\[(f+g)(x) = f(x)+g(x)\]</span> for all <span class="math inline">\(x \in S\)</span>.</li>
+<li>For <span class="math inline">\(\lambda \in \mathbb{F}\)</span> and <span class="math inline">\(f\)</span> in <span class="math inline">\(\mathbb{F^S}\)</span>, the product <span class="math inline">\(\lambda f \in \mathbb{F^S}\)</span> is the function defined by <span class="math display">\[ (\lambda f)(x) = \lambda f(x)\]</span> for all <span class="math inline">\(x \in S.\)</span></li>
+</ul>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
