@@ -10,68 +10,6 @@
     ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "VectorSpaces.html",
-    "href": "VectorSpaces.html",
-    "title": "VectorSpaces",
-    "section": "",
-    "text": "definition: vector space\n\n\nA \\(vector space\\) is a set \\(V\\) alond with an addition on V and a scalar multiplication on V such that the following properties hold.\n\\(\\textbf{1. commutativity}\\)\n\\(u+v = v+ u\\) for all \\(u,v \\in V\\)\n\\(\\textbf{2. associativity}\\)\n\\((u+v)+w = v+(u+w)\\) and \\((ab)v = a(bv)\\) for all \\(u,v,w \\in V\\) and for all \\(a,b \\in F\\).\n\\(\\textbf{3. additive identity}\\)\nThere exists an element \\(0 \\in V\\) such that \\(v + 0 = v\\) for all \\(v \\in V\\).\n\\(\\textbf{4. additive inverse}\\)\nFor every \\(v \\in V\\) there exists \\(w \\in V\\) such that \\(v+w=0\\).\n\\(\\textbf{5. multiplicative identity}\\)\n\\(1v = v\\) for all \\(v \\in V\\)\n\\(\\textbf{6. distributive properties}\\)\n\\(a(u+v) = au+av\\) amd \\((a+b)v = av+bv\\) for all \\(a,b \\in F\\) and \\(u,v \\in V\\).",
-    "crumbs": [
-      "LADR",
-      "VectorSpaces"
-    ]
-  },
-  {
-    "objectID": "VectorSpaces.html#a-rn-and-cn",
-    "href": "VectorSpaces.html#a-rn-and-cn",
-    "title": "VectorSpaces",
-    "section": "",
-    "text": "definition: vector space\n\n\nA \\(vector space\\) is a set \\(V\\) alond with an addition on V and a scalar multiplication on V such that the following properties hold.\n\\(\\textbf{commutativity}\\)\n\\(u+v = v+ u\\) for all \\(u,v \\in V\\)\n\\(\\textbf{associativity}\\)\n\\((u+v)+w = v+(u+w)\\) and \\((ab)v = a(bv)\\) for all \\(u,v,w \\in V\\) and for all \\(a,b \\in F\\).",
-    "crumbs": [
-      "LADR",
-      "VectorSpaces"
-    ]
-  },
-  {
-    "objectID": "VectorSpaces.html#rn-and-cn",
-    "href": "VectorSpaces.html#rn-and-cn",
-    "title": "VectorSpaces",
-    "section": "",
-    "text": "definition: vector space\n\n\nA \\(vector space\\) is a set \\(V\\) alond with an addition on V and a scalar multiplication on V such that the following properties hold.\n\\(\\textbf{1. commutativity}\\)\n\\(u+v = v+ u\\) for all \\(u,v \\in V\\)\n\\(\\textbf{2. associativity}\\)\n\\((u+v)+w = v+(u+w)\\) and \\((ab)v = a(bv)\\) for all \\(u,v,w \\in V\\) and for all \\(a,b \\in F\\).\n\\(\\textbf{3. additive identity}\\)\nThere exists an element \\(0 \\in V\\) such that \\(v + 0 = v\\) for all \\(v \\in V\\).\n\\(\\textbf{4. additive inverse}\\)\nFor every \\(v \\in V\\) there exists \\(w \\in V\\) such that \\(v+w=0\\).\n\\(\\textbf{5. multiplicative identity}\\)\n\\(1v = v\\) for all \\(v \\in V\\)\n\\(\\textbf{6. distributive properties}\\)\n\\(a(u+v) = au+av\\) amd \\((a+b)v = av+bv\\) for all \\(a,b \\in F\\) and \\(u,v \\in V\\).",
-    "crumbs": [
-      "LADR",
-      "VectorSpaces"
-    ]
-  },
-  {
-    "objectID": "VectorSpaces.html#vector-spaces",
-    "href": "VectorSpaces.html#vector-spaces",
-    "title": "VectorSpaces",
-    "section": "",
-    "text": "definition: vector space\n\n\nA \\(vector space\\) is a set \\(V\\) alond with an addition on V and a scalar multiplication on V such that the following properties hold.\n\\(\\textbf{1. commutativity}\\)\n\\(u+v = v+ u\\) for all \\(u,v \\in V\\)\n\\(\\textbf{2. associativity}\\)\n\\((u+v)+w = v+(u+w)\\) and \\((ab)v = a(bv)\\) for all \\(u,v,w \\in V\\) and for all \\(a,b \\in F\\).\n\\(\\textbf{3. additive identity}\\)\nThere exists an element \\(0 \\in V\\) such that \\(v + 0 = v\\) for all \\(v \\in V\\).\n\\(\\textbf{4. additive inverse}\\)\nFor every \\(v \\in V\\) there exists \\(w \\in V\\) such that \\(v+w=0\\).\n\\(\\textbf{5. multiplicative identity}\\)\n\\(1v = v\\) for all \\(v \\in V\\)\n\\(\\textbf{6. distributive properties}\\)\n\\(a(u+v) = au+av\\) amd \\((a+b)v = av+bv\\) for all \\(a,b \\in F\\) and \\(u,v \\in V\\).",
-    "crumbs": [
-      "LADR",
-      "VectorSpaces"
-    ]
-  },
-  {
-    "objectID": "VectorSpaces/VectorSpaces.html",
-    "href": "VectorSpaces/VectorSpaces.html",
-    "title": "VectorSpaces",
-    "section": "",
-    "text": "Vectors\n\n\ndefinition: vector\n\n\n\nElements of a vector space are called vectors or points.\nA vector or point in \\(\\mathbb{R^n}\\) is \\((x_1,x_2,\\ldots,x_n)\\) where \\(x_k \\in \\mathbb{R}\\) for \\(k=1,2,\\ldots,n.\\)\nThe set of all lists of vectors of length \\(n\\) is \\(\\mathbb{R^n}\\)\nIf this set obeys the properties of a vector space then the set is a vector space over \\(\\mathbb{R}\\)\n\n\n\n\n\nVector Space\n\n\n1.20 definition: vector space\n\n\nA vector space is a set \\(V\\) along with an addition and scalar multiplication on \\(V\\) such that the following properties hold.\n1. commutativity\n\\(u+v = v+ u\\) for all \\(u,v \\in V\\)\n2. associativity\n\\((u+v)+w = v+(u+w)\\) and \\((ab)v = a(bv)\\) for all \\(u,v,w \\in V\\) and for all \\(a,b \\in F\\).\n3. additive identity\nThere exists an element \\(0 \\in V\\) such that \\(v + 0 = v\\) for all \\(v \\in V\\).\n4. additive inverse\nFor every \\(v \\in V\\) there exists \\(w \\in V\\) such that \\(v+w=0\\).\n5. multiplicative identity\n\\(1v = v\\) for all \\(v \\in V\\)\n6. distributive properties\n\\(a(u+v) = au+av\\) and \\((a+b)v = av+bv\\) for all \\(a,b \\in F\\) and \\(u,v \\in V\\).\n\n\nA key difference between field and vector space is the multiplication by a scalar in the case of vectors. “Multiplication” between vectors is not defined.\nExamples: Vector spaces:\n\\(\\mathbb{R}\\) - real vector space over \\(\\mathbb{R}\\)\n\\(\\mathbb{C}\\) - complex vector space over \\(\\mathbb{C}\\)\n\\(\\mathbb{F}^n\\) - finite dimensional vector space over \\(\\mathbb{F}\\)\n\\(\\mathbb{F}^\\infty\\) - infinite vector space over \\(\\mathbb{F}\\)\n\\(\\mathbb{F}^S\\) - the set of functions from \\(S\\) to \\(F\\)\n\n\nVector Space for set of functions\n\n\nnotation: \\(\\mathbb{F}^S\\)\n\n\n\nIf \\(S\\) is a set, then \\(F^S\\) denotes the set of functions from \\(S\\) to \\(\\mathbb{F}\\).\nFor \\(f,g \\in \\mathbb{F^S}\\), the sum \\(f+g \\in \\mathbb{F^S}\\) is the function defined by \\[(f+g)(x) = f(x)+g(x)\\] for all \\(x \\in S\\).\nFor \\(\\lambda \\in \\mathbb{F}\\) and \\(f\\) in \\(\\mathbb{F^S}\\), the product \\(\\lambda f \\in \\mathbb{F^S}\\) is the function defined by \\[ (\\lambda f)(x) = \\lambda f(x)\\] for all \\(x \\in S.\\)",
-    "crumbs": [
-      "LADR",
-      "VectorSpaces"
-    ]
-  },
-  {
     "objectID": "index.html#footnotes",
     "href": "index.html#footnotes",
     "title": "LADR",
@@ -82,36 +20,57 @@
     ]
   },
   {
-    "objectID": "index.html#usage",
-    "href": "index.html#usage",
-    "title": "WebLADR",
-    "section": "Usage",
-    "text": "Usage\n::::: defn\n::: defn-head\ndefinition: vector space\n:::\n\n::: defn-body\nA $vector space$ is a set $V$ alond with an addition on V and a scalar multiplication on V such that the following properties hold.\n\n$\\textbf{commutativity}$\n\n$u+v = v+ u$ for all $u,v \\in V$\n\n$\\textbf{associativity}$\n\n$(u+v)+w = v+(u+w)$ and $(ab)v = a(bv)$ for all $u,v,w \\in V$ and for all $a,b \\in F$.\n:::\n:::::\n\n\ndefinition: vector space\n\n\nA \\(vector space\\) is a set \\(V\\) alond with an addition on V and a scalar multiplication on V such that the following properties hold.\n\\(\\textbf{commutativity}\\)\n\\(u+v = v+ u\\) for all \\(u,v \\in V\\)\n\\(\\textbf{associativity}\\)\n\\((u+v)+w = v+(u+w)\\) and \\((ab)v = a(bv)\\) for all \\(u,v,w \\in V\\) and for all \\(a,b \\in F\\).\n\n\n::::: prop\n  ::: prop-head\n  ::: prop-body\n:::::\n\n\nconditions for subspace\n\n\nA subset \\(U\\) of \\(V\\) is a subspace of \\(V\\) if and only if \\(U\\) satisfies the following three conditions.\n\\(\\textbf{additive identity}\\)\n\\(0 \\in U\\)\n\\(\\textbf{closed under addition}\\)\n\\(u, w \\in U\\) implies \\(u+w \\in U\\).\n\\(\\textbf{closed under scalar multiplication}\\)\n\\(a \\in F\\) and \\(u \\in U\\) implies \\(au \\in U\\)",
+    "objectID": "1VectorSpaces/1ARC.html",
+    "href": "1VectorSpaces/1ARC.html",
+    "title": "1A-RC",
+    "section": "",
+    "text": "inverse, subtraction and division in \\(\\mathbb{C}\\)\n\n\n1.1 definition: -\\(\\alpha\\), subtraction, 1/\\(\\alpha\\) division\n\n\nSuppose \\(\\alpha, \\beta \\in \\mathbb{C}\\)\n\nLet \\(-\\alpha\\) denote the additive inverse of \\(\\alpha\\). Thus \\(-\\alpha\\) ia a unique complex number such that: \\[\\alpha + (- \\alpha) = 0\\]\nSubtraction on \\(\\mathbb{C}\\) is defined by: \\[\\beta - \\alpha = \\beta + (- \\alpha)\\]\nFor \\(\\alpha \\ne 0\\), let 1/\\(\\alpha\\) and \\(\\frac{1}{\\alpha}\\) denote the multiplicative inverse of \\(\\alpha\\). Thus 1/\\(\\alpha\\) is a unique complex number such that: \\[ \\alpha(1/\\alpha) = 1 \\]\nFor \\(\\alpha \\ne 0\\), division by \\(\\alpha\\) is defined by: \\[ \\beta/\\alpha = \\beta(1/\\alpha) \\]\n\n\n\n\n\nn-dimensional \\(\\mathbb{F}\\)\n\n\n1.11 definition: \\(\\mathbb{F}^n\\), coordinate\n\n\n\\(\\mathbb{F}^n\\) is a set of all lists of length \\(n\\) elements of \\(\\mathbb{F}\\):\n\\[ \\mathbb{F}^n = {(x_1, \\ldots, x_n): x_k \\in \\mathbb{F} \\text{ for } k = 1,\\ldots,n}.\\]\nFor \\((x_1, \\ldots, x_n) \\in \\mathbb{F}^n\\) and \\(k \\in (1,\\ldots,n)\\) we say that \\(x_k\\) is the \\(k^{th}\\) coordinate of \\((x_1,\\ldots,x_n)\\).\n\n\n\n\nAddition in \\(\\mathbb{F}^n\\)",
     "crumbs": [
-      "LADR"
+      "LADR",
+      "1VectorSpaces",
+      "1A_RC"
     ]
   },
   {
-    "objectID": "VectorSpaces/Subspaces.html",
-    "href": "VectorSpaces/Subspaces.html",
-    "title": "Subspaces",
+    "objectID": "1VectorSpaces/1BVectorSpaces.html",
+    "href": "1VectorSpaces/1BVectorSpaces.html",
+    "title": "1BVectorSpaces",
+    "section": "",
+    "text": "Vectors\n\n\ndefinition: vector\n\n\n\nElements of a vector space are called vectors or points.\nA vector or point in \\(\\mathbb{R^n}\\) is \\((x_1,x_2,\\ldots,x_n)\\) where \\(x_k \\in \\mathbb{R}\\) for \\(k=1,2,\\ldots,n.\\)\nThe set of all lists of vectors of length \\(n\\) is \\(\\mathbb{R^n}\\)\nIf this set obeys the properties of a vector space then the set is a vector space over \\(\\mathbb{R}\\)\n\n\n\n\n\nVector Space\n\n\n1.20 definition: vector space\n\n\nA vector space is a set \\(V\\) along with an addition and scalar multiplication on \\(V\\) such that the following properties hold.\n1. commutativity\n\\(u+v = v+ u\\) for all \\(u,v \\in V\\)\n2. associativity\n\\((u+v)+w = v+(u+w)\\) and \\((ab)v = a(bv)\\) for all \\(u,v,w \\in V\\) and for all \\(a,b \\in F\\).\n3. additive identity\nThere exists an element \\(0 \\in V\\) such that \\(v + 0 = v\\) for all \\(v \\in V\\).\n4. additive inverse\nFor every \\(v \\in V\\) there exists \\(w \\in V\\) such that \\(v+w=0\\).\n5. multiplicative identity\n\\(1v = v\\) for all \\(v \\in V\\)\n6. distributive properties\n\\(a(u+v) = au+av\\) and \\((a+b)v = av+bv\\) for all \\(a,b \\in F\\) and \\(u,v \\in V\\).\n\n\nA key difference between field and vector space is the multiplication by a scalar in the case of vectors. “Multiplication” between vectors is not defined.\nExamples: Vector spaces:\n\\(\\mathbb{R}\\) - real vector space over \\(\\mathbb{R}\\)\n\\(\\mathbb{C}\\) - complex vector space over \\(\\mathbb{C}\\)\n\\(\\mathbb{F}^n\\) - finite dimensional vector space over \\(\\mathbb{F}\\)\n\\(\\mathbb{F}^\\infty\\) - infinite vector space over \\(\\mathbb{F}\\)\n\\(\\mathbb{F}^S\\) - the set of functions from \\(S\\) to \\(F\\)\n\n\nVector Space for set of functions\n\n\nnotation: \\(\\mathbb{F}^S\\)\n\n\n\nIf \\(S\\) is a set, then \\(F^S\\) denotes the set of functions from \\(S\\) to \\(\\mathbb{F}\\).\nFor \\(f,g \\in \\mathbb{F^S}\\), the sum \\(f+g \\in \\mathbb{F^S}\\) is the function defined by \\[(f+g)(x) = f(x)+g(x)\\] for all \\(x \\in S\\).\nFor \\(\\lambda \\in \\mathbb{F}\\) and \\(f\\) in \\(\\mathbb{F^S}\\), the product \\(\\lambda f \\in \\mathbb{F^S}\\) is the function defined by \\[ (\\lambda f)(x) = \\lambda f(x)\\] for all \\(x \\in S.\\)",
+    "crumbs": [
+      "LADR",
+      "1VectorSpaces",
+      "1B_VectorSpaces"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "1VectorSpaces/1CSubspaces.html",
+    "href": "1VectorSpaces/1CSubspaces.html",
+    "title": "1CSubspaces",
     "section": "",
     "text": "1.20 definition: subspace\n\n\nA subset \\(U\\) of \\(V\\) is called a subspace of \\(V\\) if \\(U\\) is also a vector space with the same additive identity, addition and scalar multiplication as on \\(V\\).\n\n\n\n\n1.34 conditions for a subspace\n\n\nA subset \\(U\\) of \\(V\\) is a subspace of \\(V\\) if and only if \\(U\\) satisfies the following three conditions.\nadditive identity\n\\(0 \\in U\\)\nclosed under addition\n\\(u,w \\in U\\) implies \\(u+w \\in U\\)\nclosed under scalar multiplication\n\\(a \\in F\\) and \\(u \\in U\\) implies \\(au \\in U\\)\n\n\nExamples: subspaces\n\nThe set of continuous real valued functions on the interval [0,1] is a subspace of \\(\\mathbb{R}^{[0,1]}\\)\nthe set of differentiable real-valued functions on \\(\\mathbb{R}\\) is a subspace of \\(\\mathbb{R}^{R}\\)\nthe set of all sequences of complex numbers with limit 0 is a subspace of \\(\\mathbb{C}^\\infty\\).\n\n\nSums of Subspaces\n\n\n1.20 definition: sum of subspace\n\n\nSuppose \\(V_1,\\ldots,V_m\\) are subspaces of \\(V\\). The sum of \\(V_1,\\ldots,V_m\\), denoted by \\(V_1+\\ldots+V_m\\), is the set of all possible sums of elements of \\(V_1,\\ldots,V_m\\). More precisely, \\[\nV_1+\\ldots,+V_m = \\{v_1+\\cdots+v_m : v_1 \\in V,\\ldots,v_m \\in V_m\\}\n\\]\n\n\nExamples of sum of subspaces\n\na sum of subspaces of \\(\\mathbb{F}^3\\)\n\nIf U is the set of elements of \\(\\mathbb{F}^3\\) whose second and third coordinates equal 0, and W is the set of elements of \\(\\mathbb{F}^3\\) whose first and third coordinates equal 0: \\[\nU = \\{(x,0,0) \\in \\mathbb{F}^3: x \\in \\mathbb{F}\\} \\text{ and }\nW = \\{(0,y,0) \\in \\mathbb{F}^3: y \\in \\mathbb{F}\\}\n\\] then, \\[\nU + W = \\{(x,y,0) \\in \\mathbb{F}^3) : x,y \\in \\mathbb{F}\\}\n\\]\n\n\nDirect sums\n\n\n1.20 definition: direct sum, \\(\\oplus\\)\n\n\nSuppose \\(V_1,\\ldots,V_m\\) are subspaces of \\(V\\).\n\nThe sum of \\(V_1+\\cdots+V_m\\), is called a direct sum if each element \\(V_1+\\cdots+V_m\\) can be written in only one way as a sum \\(v_1+\\cdots+v_m\\), where each \\(v_k \\in V_k\\).\nIf \\(V_1+\\cdots+V_m\\) is a direct sum, then \\(V_1 \\oplus \\cdots \\oplus V_m\\) denotes \\(V_1+\\cdots+V_m\\), with the \\(\\oplus\\) notation serving as an indication that this is a direct sum.\n\n\n\nExamples of direct sum \\(\\oplus\\)\n\na sum of subspaces of \\(\\mathbb{F}^3\\)\n\nIf U is ths subspace of \\(\\mathbb{F}^3\\) whose second and third coordinates equal 0, and W is the set of elements of \\(\\mathbb{F}^3\\) whose first and third coordinates equal 0: \\[\nU = \\{(x,0,0) \\in \\mathbb{F}^3: x \\in \\mathbb{F}\\} \\text{ and }\nW = \\{(0,y,0) \\in \\mathbb{F}^3: y \\in \\mathbb{F}\\}\n\\] then, \\[\nU + W = \\{(x,y,0) \\in \\mathbb{F}^3) : x,y \\in \\mathbb{F}\\}\n\\]",
     "crumbs": [
       "LADR",
-      "VectorSpaces",
-      "Subspaces"
+      "1VectorSpaces",
+      "1C_Subspaces"
     ]
   },
   {
-    "objectID": "FiniteSpaces/FiniteSpaces.html",
-    "href": "FiniteSpaces/FiniteSpaces.html",
-    "title": "FiniteVSpaces",
+    "objectID": "2FiniteDimVecSpaces/2ASpan.html",
+    "href": "2FiniteDimVecSpaces/2ASpan.html",
+    "title": "2ASpan",
     "section": "",
     "text": "2.4 definition: span\n\n\nThe set of all linear combinations of a list of vectors \\(v_1, \\ldots, v_m\\) in \\(V\\) is call the span of \\(v_1, \\ldots, v_m\\), denoted by span(\\(v_1, \\ldots, v_m\\)). In other workds \\[\nspan(v_1, \\ldots, v_m) = (av_1+\\ldots+a_m v_m : a_1,\\ldots,a_m \\in \\mathbb{F})\n\\] The span of the empty list () is defined to be (0).\n\n\n\n\n\n2.4 definition: polynomial, \\(\\mathbb{P(F)}\\)\n\n\nThe set of all linear combinations of a list of vectors \\(v_1, \\ldots, v_m\\) in \\(V\\) is call the span of \\(v_1, \\ldots, v_m\\), denoted by span(\\(v_1, \\ldots, v_m\\)). In other workds \\[\nspan(v_1, \\ldots, v_m) = (av_1+\\ldots+a_m v_m : a_1,\\ldots,a_m \\in \\mathbb{F})\n\\] The span of the empty list () is defined to be (0).",
     "crumbs": [
       "LADR",
-      "FiniteSpaces"
+      "2FiniteDimVecSpaces"
     ]
   }
 ]

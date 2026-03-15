@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – WebLADR</title>
+<title>1BVectorSpaces – WebLADR</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,62 +20,29 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-5b4ad623e5705c0698d39aec6f10cf02.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../1VectorSpaces/1CSubspaces.html" rel="next">
+<link href="../1VectorSpaces/1ARC.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-87bc3c67743b85de51ffdc10d6612253.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -104,8 +71,37 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-sidebar floating quarto-light">
@@ -117,9 +113,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
-      WebLADR
-      </li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../index.html">LADR</a></li><li class="breadcrumb-item"><a href="../1VectorSpaces/1ARC.html">1VectorSpaces</a></li><li class="breadcrumb-item"><a href="../1VectorSpaces/1BVectorSpaces.html">1B_VectorSpaces</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -134,7 +128,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">WebLADR</a> 
+      <a href="../">WebLADR</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -146,7 +140,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./index.html" class="sidebar-item-text sidebar-link">
+            <a href="../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">LADR</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -155,28 +149,28 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">1VectorSpaces</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./1VectorSpaces/1ARC.html" class="sidebar-item-text sidebar-link">
+  <a href="../1VectorSpaces/1ARC.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">1A_RC</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./1VectorSpaces/1BVectorSpaces.html" class="sidebar-item-text sidebar-link">
+  <a href="../1VectorSpaces/1BVectorSpaces.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">1B_VectorSpaces</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./1VectorSpaces/1CSubspaces.html" class="sidebar-item-text sidebar-link">
+  <a href="../1VectorSpaces/1CSubspaces.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">1C_Subspaces</span></a>
   </div>
 </li>
@@ -184,7 +178,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./2FiniteDimVecSpaces/2ASpan.html" class="sidebar-item-text sidebar-link">
+            <a href="../2FiniteDimVecSpaces/2ASpan.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">2FiniteDimVecSpaces</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -193,7 +187,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./2FiniteDimVecSpaces/2BBases.html" class="sidebar-item-text sidebar-link">
+  <a href="../2FiniteDimVecSpaces/2BBases.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">2BBases</span></a>
   </div>
 </li>
@@ -214,15 +208,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#vectors" id="toc-vectors" class="nav-link active" data-scroll-target="#vectors">Vectors</a></li>
+  <li><a href="#vector-space" id="toc-vector-space" class="nav-link" data-scroll-target="#vector-space">Vector Space</a></li>
+  <li><a href="#vector-space-for-set-of-functions" id="toc-vector-space-for-set-of-functions" class="nav-link" data-scroll-target="#vector-space-for-set-of-functions">Vector Space for set of functions</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../index.html">LADR</a></li><li class="breadcrumb-item"><a href="../1VectorSpaces/1ARC.html">1VectorSpaces</a></li><li class="breadcrumb-item"><a href="../1VectorSpaces/1BVectorSpaces.html">1B_VectorSpaces</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">1BVectorSpaces</h1>
 </div>
 
 
@@ -239,15 +241,69 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>About this site</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<section id="vectors" class="level3">
+<h3 class="anchored" data-anchor-id="vectors">Vectors</h3>
+<div class="defn">
+<div class="defn-head">
+<p>definition: vector</p>
+</div>
+<div class="defn-bodyn">
+<ol type="1">
+<li>Elements of a vector space are called vectors or points.</li>
+<li>A vector or point in <span class="math inline">\(\mathbb{R^n}\)</span> is <span class="math inline">\((x_1,x_2,\ldots,x_n)\)</span> where <span class="math inline">\(x_k \in \mathbb{R}\)</span> for <span class="math inline">\(k=1,2,\ldots,n.\)</span></li>
+<li>The set of all lists of vectors of length <span class="math inline">\(n\)</span> is <span class="math inline">\(\mathbb{R^n}\)</span></li>
+<li>If this set obeys the properties of a vector space then the set is a vector space over <span class="math inline">\(\mathbb{R}\)</span></li>
+</ol>
+</div>
+</div>
+</section>
+<section id="vector-space" class="level3">
+<h3 class="anchored" data-anchor-id="vector-space">Vector Space</h3>
+<div class="defn">
+<div class="defn-head">
+<p>1.20 definition: vector space</p>
+</div>
+<div class="defn-body">
+<p>A <em>vector space</em> is a set <span class="math inline">\(V\)</span> along with an <mark><strong>addition</strong> and <strong>scalar multiplication</strong></mark> on <span class="math inline">\(V\)</span> such that the following properties hold.</p>
+<p><strong>1. commutativity</strong><br>
+<span class="math inline">\(u+v = v+ u\)</span> for all <span class="math inline">\(u,v \in V\)</span></p>
+<p><strong>2. associativity</strong><br>
+<span class="math inline">\((u+v)+w = v+(u+w)\)</span> and <span class="math inline">\((ab)v = a(bv)\)</span> for all <span class="math inline">\(u,v,w \in V\)</span> and for all <span class="math inline">\(a,b \in F\)</span>.</p>
+<p><strong>3. additive identity</strong><br>
+There exists an element <span class="math inline">\(0 \in V\)</span> such that <span class="math inline">\(v + 0 = v\)</span> for all <span class="math inline">\(v \in V\)</span>.</p>
+<p><strong>4. additive inverse</strong><br>
+For every <span class="math inline">\(v \in V\)</span> there exists <span class="math inline">\(w \in V\)</span> such that <span class="math inline">\(v+w=0\)</span>.</p>
+<p><strong>5. multiplicative identity</strong><br>
+<span class="math inline">\(1v = v\)</span> for all <span class="math inline">\(v \in V\)</span></p>
+<p><strong>6. distributive properties</strong><br>
+<span class="math inline">\(a(u+v) = au+av\)</span> and <span class="math inline">\((a+b)v = av+bv\)</span> for all <span class="math inline">\(a,b \in F\)</span> and <span class="math inline">\(u,v \in V\)</span>.</p>
+</div>
+</div>
+<p>A key difference between field and vector space is the multiplication by a scalar in the case of vectors. “Multiplication” between vectors is not defined.</p>
+<p>Examples: Vector spaces:</p>
+<p><span class="math inline">\(\mathbb{R}\)</span> - real vector space over <span class="math inline">\(\mathbb{R}\)</span><br>
+<span class="math inline">\(\mathbb{C}\)</span> - complex vector space over <span class="math inline">\(\mathbb{C}\)</span><br>
+<span class="math inline">\(\mathbb{F}^n\)</span> - finite dimensional vector space over <span class="math inline">\(\mathbb{F}\)</span><br>
+<span class="math inline">\(\mathbb{F}^\infty\)</span> - infinite vector space over <span class="math inline">\(\mathbb{F}\)</span><br>
+<span class="math inline">\(\mathbb{F}^S\)</span> - the set of functions from <span class="math inline">\(S\)</span> to <span class="math inline">\(F\)</span></p>
+</section>
+<section id="vector-space-for-set-of-functions" class="level3">
+<h3 class="anchored" data-anchor-id="vector-space-for-set-of-functions">Vector Space for set of functions</h3>
+<div class="defn">
+<div class="defn-head">
+<p>notation: <span class="math inline">\(\mathbb{F}^S\)</span></p>
+</div>
+<div class="defn-body">
+<ul>
+<li>If <span class="math inline">\(S\)</span> is a set, then <span class="math inline">\(F^S\)</span> denotes the set of functions from <span class="math inline">\(S\)</span> to <span class="math inline">\(\mathbb{F}\)</span>.</li>
+<li>For <span class="math inline">\(f,g \in \mathbb{F^S}\)</span>, the sum <span class="math inline">\(f+g \in \mathbb{F^S}\)</span> is the function defined by <span class="math display">\[(f+g)(x) = f(x)+g(x)\]</span> for all <span class="math inline">\(x \in S\)</span>.</li>
+<li>For <span class="math inline">\(\lambda \in \mathbb{F}\)</span> and <span class="math inline">\(f\)</span> in <span class="math inline">\(\mathbb{F^S}\)</span>, the product <span class="math inline">\(\lambda f \in \mathbb{F^S}\)</span> is the function defined by <span class="math display">\[ (\lambda f)(x) = \lambda f(x)\]</span> for all <span class="math inline">\(x \in S.\)</span></li>
+</ul>
 </div>
 </div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -650,6 +706,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../1VectorSpaces/1ARC.html" class="pagination-link" aria-label="1A_RC">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">1A_RC</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../1VectorSpaces/1CSubspaces.html" class="pagination-link" aria-label="1C_Subspaces">
+        <span class="nav-page-text">1C_Subspaces</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 
