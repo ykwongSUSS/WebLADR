@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-87bc3c67743b85de51ffdc10d6612253.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-da082ef17e6f410978382f46b7b21573.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -187,6 +187,12 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../2FiniteDimVecSpaces/2ASpan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2ASpan</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../2FiniteDimVecSpaces/2BBases.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">2BBases</span></a>
   </div>
@@ -266,13 +272,53 @@ window.Quarto = {
 </div>
 <div class="defn-body">
 <p><span class="math inline">\(\mathbb{F}^n\)</span> is a set of all lists of length <span class="math inline">\(n\)</span> elements of <span class="math inline">\(\mathbb{F}\)</span>:</p>
-<p><span class="math display">\[ \mathbb{F}^n = {(x_1, \ldots, x_n): x_k \in \mathbb{F} \text{ for } k = 1,\ldots,n}.\]</span></p>
+<p><span class="math display">\[ \mathbb{F}^n = \{(x_1, \ldots, x_n): x_k \in \mathbb{F} \text{ for } k = 1,\ldots,n\}.\]</span></p>
 <p>For <span class="math inline">\((x_1, \ldots, x_n) \in \mathbb{F}^n\)</span> and <span class="math inline">\(k \in (1,\ldots,n)\)</span> we say that <span class="math inline">\(x_k\)</span> is the <span class="math inline">\(k^{th}\)</span> coordinate of <span class="math inline">\((x_1,\ldots,x_n)\)</span>.</p>
 </div>
 </div>
 </section>
 <section id="addition-in-mathbbfn" class="level3">
 <h3 class="anchored" data-anchor-id="addition-in-mathbbfn">Addition in <span class="math inline">\(\mathbb{F}^n\)</span></h3>
+<div class="defn">
+<div class="defn-head">
+<p>1.13 definition: addition in <span class="math inline">\(\mathbb{F}^n\)</span></p>
+</div>
+<div class="defn-body">
+<p>Addition in <span class="math inline">\(\mathbb{F}^n\)</span> is defined by adding the corresponding coordinates: <span class="math display">\[
+(x_1,\ldots,x_n) + (y_1,\ldots,y_n)=(x_1+y_1,\ldots, x_n+y_n)
+\]</span></p>
+</div>
+</div>
+<div class="defn">
+<div class="defn-head">
+<p>1.15 notation: 0</p>
+</div>
+<div class="defn-body">
+<p>Let <span class="math inline">\(O\)</span> denote the list of length <span class="math inline">\(n\)</span> whose coordinates are all <span class="math inline">\(0\)</span>: <span class="math display">\[
+O = (0,\ldots,0)
+\]</span></p>
+</div>
+</div>
+<div class="defn">
+<div class="defn-head">
+<p>1.17 additive inverse in <span class="math inline">\(\mathbb{F}^n\)</span>, -<span class="math inline">\(x\)</span></p>
+</div>
+<div class="defn-body">
+<p>For <span class="math inline">\(x \in \mathbb{F}^n\)</span>, the additive inverse of <span class="math inline">\(x\)</span>, denoted by <span class="math inline">\(-x\)</span>, is the vector <span class="math inline">\(-x \in \mathbb{F}^n\)</span> such that <span class="math display">\[
+x + (-x) = 0
+\]</span> Thus if <span class="math inline">\(x = x_1,\ldots,x_n\)</span>, then <span class="math inline">\(-x = (-x_1, \dots, -x_n )\)</span>.</p>
+</div>
+</div>
+<div class="defn">
+<div class="defn-head">
+<p>1.18 definition: scalar multiplication in <span class="math inline">\(\mathbb{F}^n\)</span></p>
+</div>
+<div class="defn-body">
+<p>The product of a number <span class="math inline">\(\lambda\)</span> and a vector in <span class="math inline">\(\mathbb{F}^n\)</span> is computed by multiplying each coordinate of the vector by <span class="math inline">\(\lambda\)</span>: <span class="math display">\[
+\lambda(x_1,\ldots,x_n) = (\lambda x_1, \ldots, \lambda x_n);
+\]</span> here <span class="math inline">\(\lambda \in \mathbb{F}\)</span> and <span class="math inline">\((x_1,\ldots,x_n) \in \mathbb{F}^n\)</span></p>
+</div>
+</div>
 
 
 </section>
