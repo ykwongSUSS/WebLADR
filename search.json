@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "LADR",
     "section": "",
-    "text": "This is my personal learning website for learning Linear Algebra Done Right (LADR) 1. The book is available from LADR4e.pdf and is open access. There is also a set of lecture videos on YouTube done by the author: LADR Lecture Videos .\nCustom callouts are used on this website 2. The custom.scss must be referred in the YAML.",
+    "text": "This is my personal learning website for learning Linear Algebra Done Right (LADR) 1. The book is available from LADR4e.pdf and is open access. There is also a set of lecture videos on YouTube done by the author: LADR Lecture Videos . If you must, there is also a set of video solutions on YouTube 2.\nCustom callouts are used on this website 3. The custom.scss must be referred in the YAML.",
     "crumbs": [
       "LADR"
     ]
@@ -14,7 +14,7 @@
     "href": "index.html#footnotes",
     "title": "LADR",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nAxler,S. “Linear Algebra Done Right”, 4th Edition, Springer, 2024↩︎\nyoutube: How to create CUSTOM Callout Boxes in Quarto.↩︎",
+    "text": "Footnotes\n\n\nAxler,S. “Linear Algebra Done Right”, 4th Edition, Springer, 2024↩︎\nYouTube: Linear Algebra Done Right | 2A - All Problems (4th ed)↩︎\nYouTube: How to create CUSTOM Callout Boxes in Quarto.↩︎",
     "crumbs": [
       "LADR"
     ]
@@ -67,10 +67,20 @@
     "href": "2FiniteDimVecSpaces/2ASpan.html",
     "title": "2ASpan",
     "section": "",
-    "text": "2.4 definition: span\n\n\nThe set of all linear combinations of a list of vectors \\(v_1, \\ldots, v_m\\) in \\(V\\) is call the span of \\(v_1, \\ldots, v_m\\), denoted by span(\\(v_1, \\ldots, v_m\\)). In other workds \\[\nspan(v_1, \\ldots, v_m) = (av_1+\\ldots+a_m v_m : a_1,\\ldots,a_m \\in \\mathbb{F})\n\\] The span of the empty list () is defined to be (0).\n\n\n\n\n\n2.4 definition: polynomial, \\(\\mathbb{P(F)}\\)\n\n\nThe set of all linear combinations of a list of vectors \\(v_1, \\ldots, v_m\\) in \\(V\\) is call the span of \\(v_1, \\ldots, v_m\\), denoted by span(\\(v_1, \\ldots, v_m\\)). In other workds \\[\nspan(v_1, \\ldots, v_m) = (av_1+\\ldots+a_m v_m : a_1,\\ldots,a_m \\in \\mathbb{F})\n\\] The span of the empty list () is defined to be (0).",
+    "text": "2.4 definition: span\n\n\nThe set of all linear combinations of a list of vectors \\(v_1, \\ldots, v_m\\) in \\(V\\) is call the span of \\(v_1, \\ldots, v_m\\), denoted by span(\\(v_1, \\ldots, v_m\\)). In other workds \\[\nspan(v_1, \\ldots, v_m) = (av_1+\\ldots+a_m v_m : a_1,\\ldots,a_m \\in \\mathbb{F})\n\\] The span of the empty list ( ) is defined to be {0}.\n\n\n\n\n\n2.4 definition: polynomial, \\(\\mathbb{P(F)}\\)\n\n\nThe set of all linear combinations of a list of vectors \\(v_1, \\ldots, v_m\\) in \\(V\\) is call the span of \\(v_1, \\ldots, v_m\\), denoted by span(\\(v_1, \\ldots, v_m\\)). In other workds \\[\nspan(v_1, \\ldots, v_m) = (av_1+\\ldots+a_m v_m : a_1,\\ldots,a_m \\in \\mathbb{F})\n\\] The span of the empty list () is defined to be (0).",
     "crumbs": [
       "LADR",
       "2FiniteDimVecSpaces"
+    ]
+  },
+  {
+    "objectID": "index.html#callout-for-note-gray",
+    "href": "index.html#callout-for-note-gray",
+    "title": "LADR",
+    "section": "Callout for Note (gray)",
+    "text": "Callout for Note (gray)\n\n\nNote\n\n\nClosure is a property from the definition for the addition and multiplication of \\(\\alpha\\) and \\(\\beta\\) in a field \\(\\mathbb{F}\\) (or in this case \\(\\mathbb{R}\\) and \\(\\mathbb{C}\\)).\n\n\nNote Code (gray):\n::::: note\n::: note-head\nClosure\n:::\n\n::: note-body\nclosure is a property derived from the definition for \naddition and multiplication of $\\alpha$ and $\\beta$ \nin a field $\\mathbb{F}$ (or in this case $\\mathbb{R}$ \nand $\\mathbb{C}$).\n:::\n:::::\nnote: add 2 spaces at end of a line  \nfor newline.",
+    "crumbs": [
+      "LADR"
     ]
   }
 ]
